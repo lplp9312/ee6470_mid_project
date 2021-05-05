@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by Qt Creator 2.5.1, 2021-05-05T02:28:55. -->
+<qtcreator>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAIAAACKAC8AaABvAG0AZQAvAG0AMQAwADkALwBtADEAMAA5ADAANgAxADYAMwA0AC8AZQBlADYANAA3ADAAXwBtAGkAZAAvAEgATABTAF8AdABlAHMAdAAvAEgATABTAF8AdAByAHkALwBzAHQAcgBhAHQAdQBzAC8AcAByAG8AagBlAGMAdAAuAHQAYwBsAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAfgAvAGgAbwBtAGUALwBtADEAMAA5AC8AbQAxADAAOQAwADYAMQA2ADMANAAvAGUAZQA2ADQANwAwAF8AbQBpAGQALwBIAEwAUwBfAHQAZQBzAHQALwBIAEwAUwBfAHQAcgB5AC8ARABDAF8ARgBpAGwAdABlAHIALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAqAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAB+AC8AaABvAG0AZQAvAG0AMQAwADkALwBtADEAMAA5ADAANgAxADYAMwA0AC8AZQBlADYANAA3ADAAXwBtAGkAZAAvAEgATABTAF8AdABlAHMAdAAvAEgATABTAF8AdAByAHkALwBEAEMAXwBGAGkAbAB0AGUAcgAuAGMAcABwAAAAGgBEAEMAXwBGAGkAbAB0AGUAcgAuAGMAcABwAAAAE0NwcFBsdWdpbi5DKytFZGl0b3IAAACKAC8AaABvAG0AZQAvAG0AMQAwADkALwBtADEAMAA5ADAANgAxADYAMwA0AC8AZQBlADYANAA3ADAAXwBtAGkAZAAvAEgATABTAF8AdABlAHMAdAAvAEgATABTAF8AdAByAHkALwBzAHQAcgBhAHQAdQBzAC8AcAByAG8AagBlAGMAdAAuAHQAYwBsAAAAFgBwAHIAbwBqAGUAYwB0AC4AdABjAGwAAAAUQ29yZS5QbGFpblRleHRFZGl0b3IAAADZAAAADWN1cnJlbnRlZGl0b3IAAAB+AC8AaABvAG0AZQAvAG0AMQAwADkALwBtADEAMAA5ADAANgAxADYAMwA0AC8AZQBlADYANAA3ADAAXwBtAGkAZAAvAEgATABTAF8AdABlAHMAdAAvAEgATABTAF8AdAByAHkALwBEAEMAXwBGAGkAbAB0AGUAcgAuAGMAcABwAAAAJgBDAHAAcABQAGwAdQBnAGkAbgAuAEMAKwArAEUAZABpAHQAbwByAAAAGAAAAAEAAAAqAAAAAAAAAAEAAAAAAAAAAA==</value>
+ </data>
+ <data>
+  <variable>OpenEditors</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try/stratus/stratus.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try/stratus/stratus.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Mode.CynthAnalysis</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DebuggerToolTips</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">session</value>
+   <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try/stratus/stratus.pro</value>
+   <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try/stratus/#1Sources</value>
+   <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try</value>
+   <value type="QString">/home/m109/m109061634/ee6470_mid/HLS_test/HLS_try/stratus/#5Other files</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DebuggerToolTips</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>

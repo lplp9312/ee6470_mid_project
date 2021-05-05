@@ -1,0 +1,12 @@
+574
+605
+ws28
+bdw_work/trace/sim.B.trace
+2
+0
+0
+0
+1620149996
+1620150018
+make CWBExec=1 sim_B
+

@@ -1,0 +1,7 @@
+bdw_work/sims/top_V_BASIC.v
+bdw_work/wrappers/DC_Filter_cosim.v
+bdw_work/modules/DC_Filter/BASIC/DC_Filter_rtl.v
+bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X32_mask2.v
+bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X32_mask1.v
+bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_RAM_2322X32_1.v
+

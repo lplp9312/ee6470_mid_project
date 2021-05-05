@@ -1,0 +1,12 @@
+29709
+29742
+ws32
+bdw_work/trace/sim.V_BASIC.trace
+2
+0
+0
+0
+1620117740
+1620119283
+make CWBExec=1 sim_V_BASIC
+

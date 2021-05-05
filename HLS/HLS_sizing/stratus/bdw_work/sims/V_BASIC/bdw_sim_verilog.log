@@ -1,0 +1,100 @@
+irun(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s039: Started on May 04, 2021 at 16:17:49 CST
+irun
+	+nc64bit
+	+incdir+/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib
+	+incdir+bdw_work/wrappers
+	+access+rw
+	+loadpli1=/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+	+ncinput+bdw_work/sims/V_BASIC/ncverilog.do
+	+nclibdirname+bdw_work/sims/V_BASIC
+	-f bdw_work/sims/V_BASIC/siminfo
+		bdw_work/sims/top_V_BASIC.v
+		bdw_work/wrappers/DC_Filter_cosim.v
+		bdw_work/modules/DC_Filter/BASIC/DC_Filter_rtl.v
+		bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask2.v
+		bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask1.v
+		bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_RAM_2322X8_1.v
+	+libext+.v
+	+define+ioConfig
+	+define+BDW_RTL_DC_Filter_BASIC
+	+nowarn+LIBNOU
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so,argv=../lena_std_short.bmp%out.bmp
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+	-l bdw_work/sims/V_BASIC/bdw_sim_verilog.log
+
+   User defined plus("+") options:
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so,argv=../lena_std_short.bmp%out.bmp
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+
+file: bdw_work/sims/top_V_BASIC.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/DC_Filter_cosim.v
+	module worklib.DC_Filter_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/DC_Filter/BASIC/DC_Filter_rtl.v
+	module worklib.DC_Filter:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask2.v
+	module worklib.DC_Filter_ROM_9X4_mask2:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask1.v
+	module worklib.DC_Filter_ROM_9X4_mask1:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_RAM_2322X8_1.v
+	module worklib.DC_Filter_RAM_2322X8_1:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: ...........
+            $readmemh("bdw_work/modules/DC_Filter/BASIC/DC_Filter_ROM_9X4_mask2_0.memh", mask2);
+                                                                                             |
+ncelab: *W,MEMODR (./bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask2.v,17|93): $readmem default memory order incompatible with IEEE1364.
+......
+            $readmemh("bdw_work/modules/DC_Filter/BASIC/DC_Filter_ROM_9X4_mask1_1.memh", mask1);
+                                                                                             |
+ncelab: *W,MEMODR (./bdw_work/modules/DC_Filter/BASIC/v_rtl/DC_Filter_ROM_9X4_mask1.v,17|93): $readmem default memory order incompatible with IEEE1364.
+... Done
+	Generating native compiled code:
+		worklib.DC_Filter:v <0x41822fb7>
+			streams: 179, words: 124126
+		worklib.DC_Filter_RAM_2322X8_1:v <0x3303178d>
+			streams:   2, words:   795
+		worklib.DC_Filter_ROM_9X4_mask1:v <0x579a99e0>
+			streams:   3, words:   929
+		worklib.DC_Filter_ROM_9X4_mask2:v <0x62862179>
+			streams:   3, words:   929
+		worklib.top:v <0x3c5fd9f9>
+			streams: 125, words: 111961
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 7       6
+		Registers:             248     246
+		Scalar wires:           42       -
+		Vectored wires:         70       -
+		Always blocks:         118     117
+		Initial blocks:         11      11
+		Cont. assignments:      46      90
+		Pseudo assignments:     16      16
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+Simulation stopped via $stop(1) at time 184658505100 PS + 0
+./bdw_work/sims/top_V_BASIC.v:69 		#100 $stop;
+ncsim> quit
+TOOL:	irun(64)	15.20-s039: Exiting on May 04, 2021 at 16:30:41 CST  (total: 00:12:52)
